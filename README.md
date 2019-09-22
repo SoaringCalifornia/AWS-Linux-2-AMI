@@ -1,7 +1,7 @@
 ### Costs as of 9/22/2019  
-1) t3a.nano https://aws.amazon.com/ec2/instance-types/t3/
-    2vCPU / 0.5 GiB / 8GB ROM 
-    $24/year = **$2/m**
+1) t3a.nano https://aws.amazon.com/ec2/instance-types/t3/  
+    2vCPU / 0.5 GiB / 8GB ROM   
+    $24/year = **$2/m**  
 2) EBS  **$0.68/m**  
     $0.00 for 1 Gbps per t3a.nano instance-hour (or partial hour)352.795 Hrs $0.00  
     $0.05 per GB-Month of snapshot data stored - US West (Oregon)2.163 GB-Mo $0.11  
