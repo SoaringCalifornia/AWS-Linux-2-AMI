@@ -24,7 +24,7 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-
 https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-to-elb-load-balancer.html
 
 ### Installing .NET Core 2.1.2 on AWS Linux AMI 
-Connect via PuTTY and execute following:
+Connect via PuTTY and execute following:  
 `wget https://download.microsoft.com/download/5/D/F/5DF4B836-7DFD-4CCF-AC96-101E2A4C7421/dotnet-sdk-2.1.2-linux-x64.tar.gz
 mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-2.1.2-linux-x64.tar.gz -C $HOME/dotnet
 dotnet --version`
@@ -32,18 +32,18 @@ dotnet --version`
 See https://github.com/dotnet/core/issues/930 and https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.1.2-sdk-download.md
 
 ### .NET Core
-https://www.youtube.com/watch?v=lDI_7Ev6Hg8
-https://docs.microsoft.com/en-us/dotnet/core/linux-prerequisites?tabs=netcore2x for AMI follow CentOS 7.1
-https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-2.1&tabs=aspnetcore2x Host ASP.NET Core on Linux with Apache
-https://httpd.apache.org/docs/2.4/vhosts/examples.html Apache VirtualHost Examples
+https://www.youtube.com/watch?v=lDI_7Ev6Hg8  
+https://docs.microsoft.com/en-us/dotnet/core/linux-prerequisites?tabs=netcore2x for AMI follow CentOS 7.1  
+https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-2.1&tabs=aspnetcore2x Host ASP.NET Core on Linux with Apache  
+https://httpd.apache.org/docs/2.4/vhosts/examples.html Apache VirtualHost Examples  
 
 ### Deleting log files
-1) PuTTY to the instance
-2) Check for free space: `df -hT /dev/xvda1` 
+1) PuTTY to the instance  
+2) Check for free space: `df -hT /dev/xvda1`  
 3) Switch to super user: `sudo su`
 4) Go to logs folder: `cd /var/log` 
 5) Delete logs: `find -type f -name '*.log-*' -delete`
-7) Delete Apache logs:
+7) Delete Apache logs:  
 `sudo systemctl stop httpd 
 cd /etc/httpd/
 find -type f -name '*.log' -delete
