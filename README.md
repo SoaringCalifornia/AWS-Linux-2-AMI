@@ -19,7 +19,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html
 ### Free option : Setting up SSL with Let's Encrypt
 https://docs.aws.amazon.com/en_pv/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html
 
-### Expensive option : Setup HTTPS via AWS Application Load Balancer (AWS ALB)
+### $20+/m option : Setup HTTPS via AWS Application Load Balancer (AWS ALB)
 https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancer-getting-started.html
 https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-to-elb-load-balancer.html
 
