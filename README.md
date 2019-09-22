@@ -1,5 +1,5 @@
 ### Costs as of 9/22/2019  
-1) t3a.nano https://aws.amazon.com/ec2/instance-types/t3/  
+1) **t3a.nano** https://aws.amazon.com/ec2/instance-types/t3/  
     2vCPU / 0.5 GiB / 8GB ROM   
     $24/year = **$2/m**  
 2) EBS  **$0.68/m**  
