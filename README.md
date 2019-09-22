@@ -10,6 +10,13 @@
     $0.50 per Hosted Zone for the first 25 Hosted Zones3 HostedZone $1.50  
 Total monthly **$4.18**
 
+### Most recent memory stats `free -m`
+                  total        used        free      shared  buff/cache   available  
+    Mem:            461         163         150          12         147         257  
+    Swap:             0           0           0    
+
+*All above in MB  
+
 ### Setting up EC2
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html
 
